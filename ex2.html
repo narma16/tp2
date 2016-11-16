@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <title>un site</title>
+</head>
+<body>
+  <form action="http://www.iut-fbleau.fr/sitebp/get.php" method="post ou get">
+    Nom:<br>
+    <input type="text" name="nom"><br>
+    Prenom:<br>
+    <input type="text" name="prenom"><br>
+    Date de naissance:<br>
+    <input type="date" name="date de naissance"><br>
+    Email:<br>
+    <input type="text" name="mail" required><br>
+    Code postale:<br>
+    <input type="text" name="code postale"><br>
+    Telephone portable:<br>
+    <input type="text" name="telephone portable"><br>
+    <br> <label for="sexe">Sexe</label> <br/>
+    <input type="radio" name="sexe" value="male" checked> Male<br>
+    <input type="radio" name="sexe" value="female"> Female<br>
+    <input type="radio" name="sexe" value="other"> Other<br>
+    <br> <label for="semestre">Semestre</label> <br/>
+    <select name="semestre">
+      <option>S1</option>
+      <option>S2</option>
+      <option>S3</option>
+      <option>S4</option>
+    </select>
+    Niveau en html:<br>
+    <input type="range" name="niveau en html" min="0" max="10"><br>
+    Message:<br>
+    <input type="text" name="message" required><br>
+    <input type="submit" name="soumission" value="envoyer" />
+    <input type="reset" name="soumission" value="reset" /> 
+  </form> 
+</body>
+</html>
